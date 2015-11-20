@@ -15,6 +15,13 @@
 		37CA75411BFF2ABA00A65B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37CA753F1BFF2ABA00A65B26 /* LaunchScreen.storyboard */; };
 		37CA754C1BFF2ABA00A65B26 /* AsyncVerticalTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CA754B1BFF2ABA00A65B26 /* AsyncVerticalTextTests.m */; };
 		37CA75571BFF2ABA00A65B26 /* AsyncVerticalTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CA75561BFF2ABA00A65B26 /* AsyncVerticalTextUITests.m */; };
+		37CA75661BFF2C1200A65B26 /* AKVerticalTextNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CA75651BFF2C1200A65B26 /* AKVerticalTextNode.m */; };
+		37CA75681BFF2CD400A65B26 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CA75671BFF2CD400A65B26 /* CoreText.framework */; };
+		37CA756B1BFF338E00A65B26 /* AKVerticalTextRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CA756A1BFF338E00A65B26 /* AKVerticalTextRenderer.m */; };
+		37CA75701BFF373300A65B26 /* WTNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CA756D1BFF373300A65B26 /* WTNote.m */; };
+		37CA75711BFF373300A65B26 /* WTLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CA756F1BFF373300A65B26 /* WTLink.m */; };
+		37CA75741BFF378B00A65B26 /* AKVerticalTextDrawingParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CA75731BFF378B00A65B26 /* AKVerticalTextDrawingParameter.m */; };
+		E6F158B40D8042FB0B2D9D50 /* libPods-AsyncVerticalText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5AC95202F6B36F7E40A9B2 /* libPods-AsyncVerticalText.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,20 @@
 		37CA75521BFF2ABA00A65B26 /* AsyncVerticalTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncVerticalTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CA75561BFF2ABA00A65B26 /* AsyncVerticalTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncVerticalTextUITests.m; sourceTree = "<group>"; };
 		37CA75581BFF2ABA00A65B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37CA75641BFF2C1200A65B26 /* AKVerticalTextNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKVerticalTextNode.h; sourceTree = "<group>"; };
+		37CA75651BFF2C1200A65B26 /* AKVerticalTextNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKVerticalTextNode.m; sourceTree = "<group>"; };
+		37CA75671BFF2CD400A65B26 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		37CA75691BFF338E00A65B26 /* AKVerticalTextRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKVerticalTextRenderer.h; sourceTree = "<group>"; };
+		37CA756A1BFF338E00A65B26 /* AKVerticalTextRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKVerticalTextRenderer.m; sourceTree = "<group>"; };
+		37CA756C1BFF373300A65B26 /* WTNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNote.h; sourceTree = "<group>"; };
+		37CA756D1BFF373300A65B26 /* WTNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNote.m; sourceTree = "<group>"; };
+		37CA756E1BFF373300A65B26 /* WTLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTLink.h; sourceTree = "<group>"; };
+		37CA756F1BFF373300A65B26 /* WTLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTLink.m; sourceTree = "<group>"; };
+		37CA75721BFF378B00A65B26 /* AKVerticalTextDrawingParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKVerticalTextDrawingParameter.h; sourceTree = "<group>"; };
+		37CA75731BFF378B00A65B26 /* AKVerticalTextDrawingParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKVerticalTextDrawingParameter.m; sourceTree = "<group>"; };
+		5B5AC95202F6B36F7E40A9B2 /* libPods-AsyncVerticalText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AsyncVerticalText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62FC8B995B00DA53E8B2AE87 /* Pods-AsyncVerticalText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncVerticalText.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncVerticalText/Pods-AsyncVerticalText.debug.xcconfig"; sourceTree = "<group>"; };
+		AD0B4B863E356BF3170E96B9 /* Pods-AsyncVerticalText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncVerticalText.release.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncVerticalText/Pods-AsyncVerticalText.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37CA75681BFF2CD400A65B26 /* CoreText.framework in Frameworks */,
+				E6F158B40D8042FB0B2D9D50 /* libPods-AsyncVerticalText.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +108,8 @@
 				37CA754A1BFF2ABA00A65B26 /* AsyncVerticalTextTests */,
 				37CA75551BFF2ABA00A65B26 /* AsyncVerticalTextUITests */,
 				37CA752F1BFF2ABA00A65B26 /* Products */,
+				5FFBA5537B27D9FB54FD3005 /* Pods */,
+				8F76FF7C0A7B8EC8F02E9CE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +135,16 @@
 				37CA753F1BFF2ABA00A65B26 /* LaunchScreen.storyboard */,
 				37CA75421BFF2ABA00A65B26 /* Info.plist */,
 				37CA75311BFF2ABA00A65B26 /* Supporting Files */,
+				37CA75641BFF2C1200A65B26 /* AKVerticalTextNode.h */,
+				37CA75651BFF2C1200A65B26 /* AKVerticalTextNode.m */,
+				37CA75691BFF338E00A65B26 /* AKVerticalTextRenderer.h */,
+				37CA756A1BFF338E00A65B26 /* AKVerticalTextRenderer.m */,
+				37CA756C1BFF373300A65B26 /* WTNote.h */,
+				37CA756D1BFF373300A65B26 /* WTNote.m */,
+				37CA756E1BFF373300A65B26 /* WTLink.h */,
+				37CA756F1BFF373300A65B26 /* WTLink.m */,
+				37CA75721BFF378B00A65B26 /* AKVerticalTextDrawingParameter.h */,
+				37CA75731BFF378B00A65B26 /* AKVerticalTextDrawingParameter.m */,
 			);
 			path = AsyncVerticalText;
 			sourceTree = "<group>";
@@ -140,6 +175,24 @@
 			path = AsyncVerticalTextUITests;
 			sourceTree = "<group>";
 		};
+		5FFBA5537B27D9FB54FD3005 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62FC8B995B00DA53E8B2AE87 /* Pods-AsyncVerticalText.debug.xcconfig */,
+				AD0B4B863E356BF3170E96B9 /* Pods-AsyncVerticalText.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F76FF7C0A7B8EC8F02E9CE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37CA75671BFF2CD400A65B26 /* CoreText.framework */,
+				5B5AC95202F6B36F7E40A9B2 /* libPods-AsyncVerticalText.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37CA755B1BFF2ABA00A65B26 /* Build configuration list for PBXNativeTarget "AsyncVerticalText" */;
 			buildPhases = (
+				70D3B81F3D4173C2866B9495 /* Check Pods Manifest.lock */,
 				37CA752A1BFF2ABA00A65B26 /* Sources */,
 				37CA752B1BFF2ABA00A65B26 /* Frameworks */,
 				37CA752C1BFF2ABA00A65B26 /* Resources */,
+				0F48575D90033C5058E1E4A8 /* Embed Pods Frameworks */,
+				55A47900F22C1956A9591C5E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +321,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F48575D90033C5058E1E4A8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsyncVerticalText/Pods-AsyncVerticalText-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55A47900F22C1956A9591C5E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsyncVerticalText/Pods-AsyncVerticalText-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70D3B81F3D4173C2866B9495 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		37CA752A1BFF2ABA00A65B26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37CA75661BFF2C1200A65B26 /* AKVerticalTextNode.m in Sources */,
 				37CA75391BFF2ABA00A65B26 /* ViewController.m in Sources */,
+				37CA75711BFF373300A65B26 /* WTLink.m in Sources */,
+				37CA75701BFF373300A65B26 /* WTNote.m in Sources */,
 				37CA75361BFF2ABA00A65B26 /* AppDelegate.m in Sources */,
 				37CA75331BFF2ABA00A65B26 /* main.m in Sources */,
+				37CA75741BFF378B00A65B26 /* AKVerticalTextDrawingParameter.m in Sources */,
+				37CA756B1BFF338E00A65B26 /* AKVerticalTextRenderer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +520,7 @@
 		};
 		37CA755C1BFF2ABA00A65B26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62FC8B995B00DA53E8B2AE87 /* Pods-AsyncVerticalText.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AsyncVerticalText/Info.plist;
@@ -422,6 +532,7 @@
 		};
 		37CA755D1BFF2ABA00A65B26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD0B4B863E356BF3170E96B9 /* Pods-AsyncVerticalText.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AsyncVerticalText/Info.plist;
@@ -498,6 +609,7 @@
 				37CA755D1BFF2ABA00A65B26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37CA755E1BFF2ABA00A65B26 /* Build configuration list for PBXNativeTarget "AsyncVerticalTextTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +618,7 @@
 				37CA75601BFF2ABA00A65B26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37CA75611BFF2ABA00A65B26 /* Build configuration list for PBXNativeTarget "AsyncVerticalTextUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +627,7 @@
 				37CA75631BFF2ABA00A65B26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
